@@ -7,15 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		892181062209ED2F00BA23FC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892181052209ED2F00BA23FC /* Location.swift */; };
+		892181082209FACC00BA23FC /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892181072209FACC00BA23FC /* UIViewController+Extension.swift */; };
+		8921810A220A919600BA23FC /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89218109220A919600BA23FC /* LocationService.swift */; };
+		8921810D220A92C000BA23FC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921810C220A92C000BA23FC /* LocationManager.swift */; };
+		8921810F220F3CB500BA23FC /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921810E220F3CB500BA23FC /* Result.swift */; };
+		89218111220F4C6900BA23FC /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89218110220F4C6900BA23FC /* UserDefaults+Extension.swift */; };
+		892181132210ED3000BA23FC /* RootViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892181122210ED3000BA23FC /* RootViewModelTests.swift */; };
+		892181162210EDB800BA23FC /* MockLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892181152210EDB800BA23FC /* MockLocationService.swift */; };
+		892181182211036500BA23FC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892181172211036500BA23FC /* NetworkService.swift */; };
+		8921811A221103CA00BA23FC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89218119221103CA00BA23FC /* NetworkManager.swift */; };
+		8921811C221105B600BA23FC /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921811B221105B600BA23FC /* MockNetworkService.swift */; };
 		896C4DC622023C8800111F6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DC522023C8800111F6F /* AppDelegate.swift */; };
 		896C4DC822023C8800111F6F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DC722023C8800111F6F /* RootViewController.swift */; };
 		896C4DCD22023C8A00111F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896C4DCC22023C8A00111F6F /* Assets.xcassets */; };
 		896C4DD022023C8A00111F6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896C4DCE22023C8A00111F6F /* LaunchScreen.storyboard */; };
 		896C4DDD22023D7A00111F6F /* AppCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DDC22023D7A00111F6F /* AppCordinator.swift */; };
 		896C4DDF22023DAF00111F6F /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DDE22023DAF00111F6F /* RootCoordinator.swift */; };
+		896C4DE222023F6E00111F6F /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DE122023F6E00111F6F /* DayViewController.swift */; };
+		896C4DE422023FB200111F6F /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DE322023FB200111F6F /* WeekViewController.swift */; };
+		896C4DE72202407D00111F6F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DE62202407D00111F6F /* UIView+Extension.swift */; };
+		896C4DEA22025B9100111F6F /* WeatherRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DE922025B9100111F6F /* WeatherRequest.swift */; };
+		896C4DED22025C7400111F6F /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DEC22025C7400111F6F /* Configuration.swift */; };
+		896C4DF02203897100111F6F /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DEF2203897100111F6F /* RootViewModel.swift */; };
+		896C4DF322049C6200111F6F /* DarkSkyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DF222049C6200111F6F /* DarkSkyResponse.swift */; };
+		896C4DF62205EF0E00111F6F /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DF52205EF0E00111F6F /* WeatherData.swift */; };
+		896C4DF92205FEB900111F6F /* DayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DF82205FEB900111F6F /* DayViewModel.swift */; };
+		896C4DFB2205FEC600111F6F /* WeekViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DFA2205FEC600111F6F /* WeekViewModel.swift */; };
+		896C4DFD22065A5000111F6F /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DFC22065A5000111F6F /* Styles.swift */; };
+		896C4E002206612000111F6F /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4DFF2206612000111F6F /* UIImage+Extension.swift */; };
+		896C4E1222066C2000111F6F /* DayViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4E1122066C2000111F6F /* DayViewModelTests.swift */; };
+		896C4E1622066D3600111F6F /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4E1522066D3600111F6F /* XCTestCase.swift */; };
+		896C4E182206764800111F6F /* darksky.json in Resources */ = {isa = PBXBuildFile; fileRef = 896C4E172206764700111F6F /* darksky.json */; };
+		896C4E1B2207B57D00111F6F /* WeekWeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4E1A2207B57D00111F6F /* WeekWeatherTableViewController.swift */; };
+		896C4E1E2207B67E00111F6F /* ActivityIndicatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4E1D2207B67D00111F6F /* ActivityIndicatorController.swift */; };
+		896C4E202207B93E00111F6F /* WeekCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4E1F2207B93E00111F6F /* WeekCell.swift */; };
+		896C4E222207BF2700111F6F /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4E212207BF2700111F6F /* ReusableCell.swift */; };
+		896C4E242207C65B00111F6F /* WeekDayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4E232207C65B00111F6F /* WeekDayViewModel.swift */; };
+		896C4E272207C9D900111F6F /* WeekDayRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4E262207C9D900111F6F /* WeekDayRepresentable.swift */; };
+		896C4E292207CB2500111F6F /* WeekViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4E282207CB2500111F6F /* WeekViewModelTests.swift */; };
+		896C4E2B2207CDA000111F6F /* WeekDayViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896C4E2A2207CDA000111F6F /* WeekDayViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		896C4E0A22066B8400111F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896C4DBA22023C8800111F6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 896C4DC122023C8800111F6F;
+			remoteInfo = Rainstorm;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		892181052209ED2F00BA23FC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		892181072209FACC00BA23FC /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		89218109220A919600BA23FC /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		8921810C220A92C000BA23FC /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		8921810E220F3CB500BA23FC /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		89218110220F4C6900BA23FC /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		892181122210ED3000BA23FC /* RootViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModelTests.swift; sourceTree = "<group>"; };
+		892181152210EDB800BA23FC /* MockLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocationService.swift; sourceTree = "<group>"; };
+		892181172211036500BA23FC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		89218119221103CA00BA23FC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8921811B221105B600BA23FC /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
 		896C4DC222023C8800111F6F /* Rainstorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rainstorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		896C4DC522023C8800111F6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		896C4DC722023C8800111F6F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +79,31 @@
 		896C4DD122023C8A00111F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		896C4DDC22023D7A00111F6F /* AppCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCordinator.swift; sourceTree = "<group>"; };
 		896C4DDE22023DAF00111F6F /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		896C4DE122023F6E00111F6F /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		896C4DE322023FB200111F6F /* WeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewController.swift; sourceTree = "<group>"; };
+		896C4DE62202407D00111F6F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		896C4DE922025B9100111F6F /* WeatherRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRequest.swift; sourceTree = "<group>"; };
+		896C4DEC22025C7400111F6F /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		896C4DEF2203897100111F6F /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		896C4DF222049C6200111F6F /* DarkSkyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyResponse.swift; sourceTree = "<group>"; };
+		896C4DF52205EF0E00111F6F /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		896C4DF82205FEB900111F6F /* DayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewModel.swift; sourceTree = "<group>"; };
+		896C4DFA2205FEC600111F6F /* WeekViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewModel.swift; sourceTree = "<group>"; };
+		896C4DFC22065A5000111F6F /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		896C4DFF2206612000111F6F /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		896C4E0522066B8400111F6F /* RainstormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainstormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		896C4E0922066B8400111F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896C4E1122066C2000111F6F /* DayViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewModelTests.swift; sourceTree = "<group>"; };
+		896C4E1522066D3600111F6F /* XCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCase.swift; sourceTree = "<group>"; };
+		896C4E172206764700111F6F /* darksky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = darksky.json; sourceTree = "<group>"; };
+		896C4E1A2207B57D00111F6F /* WeekWeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekWeatherTableViewController.swift; sourceTree = "<group>"; };
+		896C4E1D2207B67D00111F6F /* ActivityIndicatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorController.swift; sourceTree = "<group>"; };
+		896C4E1F2207B93E00111F6F /* WeekCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCell.swift; sourceTree = "<group>"; };
+		896C4E212207BF2700111F6F /* ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableCell.swift; sourceTree = "<group>"; };
+		896C4E232207C65B00111F6F /* WeekDayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayViewModel.swift; sourceTree = "<group>"; };
+		896C4E262207C9D900111F6F /* WeekDayRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayRepresentable.swift; sourceTree = "<group>"; };
+		896C4E282207CB2500111F6F /* WeekViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewModelTests.swift; sourceTree = "<group>"; };
+		896C4E2A2207CDA000111F6F /* WeekDayViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,13 +114,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		896C4E0222066B8400111F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8921810B220A92B300BA23FC /* LocationServices */ = {
+			isa = PBXGroup;
+			children = (
+				8921810C220A92C000BA23FC /* LocationManager.swift */,
+			);
+			path = LocationServices;
+			sourceTree = "<group>";
+		};
+		892181142210EDA900BA23FC /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				892181152210EDB800BA23FC /* MockLocationService.swift */,
+				8921811B221105B600BA23FC /* MockNetworkService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		896C4DB922023C8800111F6F = {
 			isa = PBXGroup;
 			children = (
 				896C4DC422023C8800111F6F /* Rainstorm */,
+				896C4E0622066B8400111F6F /* RainstormTests */,
 				896C4DC322023C8800111F6F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				896C4DC222023C8800111F6F /* Rainstorm.app */,
+				896C4E0522066B8400111F6F /* RainstormTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,9 +162,16 @@
 		896C4DC422023C8800111F6F /* Rainstorm */ = {
 			isa = PBXGroup;
 			children = (
+				8921810B220A92B300BA23FC /* LocationServices */,
+				896C4DF42205EF0400111F6F /* Protocols */,
+				896C4DF122049C5400111F6F /* Model */,
+				896C4DEB22025C6600111F6F /* Configuration */,
+				896C4DE82202439400111F6F /* Networking */,
+				896C4DE52202407000111F6F /* Extensions */,
 				896C4DD922023D0400111F6F /* AppDelgate */,
 				896C4DDB22023D6F00111F6F /* Coordinators */,
 				896C4DD822023D0300111F6F /* RootViewController */,
+				896C4DE022023F5B00111F6F /* WeatherController */,
 				896C4DD722023D0200111F6F /* Resources */,
 				896C4DDA22023D3300111F6F /* Supporting Files */,
 				896C4DCE22023C8A00111F6F /* LaunchScreen.storyboard */,
@@ -78,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				896C4DC722023C8800111F6F /* RootViewController.swift */,
+				896C4DEE2203896600111F6F /* ViewModels */,
 			);
 			path = RootViewController;
 			sourceTree = "<group>";
@@ -107,6 +221,159 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
+		896C4DE022023F5B00111F6F /* WeatherController */ = {
+			isa = PBXGroup;
+			children = (
+				896C4DE122023F6E00111F6F /* DayViewController.swift */,
+				896C4E192207B55600111F6F /* WeekWeather */,
+				896C4DF72205FEAF00111F6F /* ViewModels */,
+			);
+			path = WeatherController;
+			sourceTree = "<group>";
+		};
+		896C4DE52202407000111F6F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				896C4DE62202407D00111F6F /* UIView+Extension.swift */,
+				896C4DFF2206612000111F6F /* UIImage+Extension.swift */,
+				892181072209FACC00BA23FC /* UIViewController+Extension.swift */,
+				89218110220F4C6900BA23FC /* UserDefaults+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		896C4DE82202439400111F6F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				896C4DE922025B9100111F6F /* WeatherRequest.swift */,
+				892181172211036500BA23FC /* NetworkService.swift */,
+				89218119221103CA00BA23FC /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		896C4DEB22025C6600111F6F /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				896C4DEC22025C7400111F6F /* Configuration.swift */,
+				896C4DFC22065A5000111F6F /* Styles.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		896C4DEE2203896600111F6F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				896C4DEF2203897100111F6F /* RootViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		896C4DF122049C5400111F6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				896C4DF222049C6200111F6F /* DarkSkyResponse.swift */,
+				892181052209ED2F00BA23FC /* Location.swift */,
+				8921810E220F3CB500BA23FC /* Result.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		896C4DF42205EF0400111F6F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				896C4DF52205EF0E00111F6F /* WeatherData.swift */,
+				896C4E212207BF2700111F6F /* ReusableCell.swift */,
+				89218109220A919600BA23FC /* LocationService.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		896C4DF72205FEAF00111F6F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				896C4DF82205FEB900111F6F /* DayViewModel.swift */,
+				896C4DFA2205FEC600111F6F /* WeekViewModel.swift */,
+				896C4E232207C65B00111F6F /* WeekDayViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		896C4E0622066B8400111F6F /* RainstormTests */ = {
+			isa = PBXGroup;
+			children = (
+				892181142210EDA900BA23FC /* Mocks */,
+				896C4E1422066D2900111F6F /* Extensions */,
+				896C4E1322066D1900111F6F /* Stubs */,
+				896C4E1022066C0200111F6F /* Test Cases */,
+				896C4E0F22066B9800111F6F /* SupportingFiles */,
+			);
+			path = RainstormTests;
+			sourceTree = "<group>";
+		};
+		896C4E0F22066B9800111F6F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				896C4E0922066B8400111F6F /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		896C4E1022066C0200111F6F /* Test Cases */ = {
+			isa = PBXGroup;
+			children = (
+				896C4E1122066C2000111F6F /* DayViewModelTests.swift */,
+				896C4E282207CB2500111F6F /* WeekViewModelTests.swift */,
+				896C4E2A2207CDA000111F6F /* WeekDayViewModelTests.swift */,
+				892181122210ED3000BA23FC /* RootViewModelTests.swift */,
+			);
+			path = "Test Cases";
+			sourceTree = "<group>";
+		};
+		896C4E1322066D1900111F6F /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				896C4E172206764700111F6F /* darksky.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		896C4E1422066D2900111F6F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				896C4E1522066D3600111F6F /* XCTestCase.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		896C4E192207B55600111F6F /* WeekWeather */ = {
+			isa = PBXGroup;
+			children = (
+				896C4E252207C9C800111F6F /* Protocols */,
+				896C4DE322023FB200111F6F /* WeekViewController.swift */,
+				896C4E1D2207B67D00111F6F /* ActivityIndicatorController.swift */,
+				896C4E1C2207B65D00111F6F /* TableView */,
+			);
+			path = WeekWeather;
+			sourceTree = "<group>";
+		};
+		896C4E1C2207B65D00111F6F /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				896C4E1A2207B57D00111F6F /* WeekWeatherTableViewController.swift */,
+				896C4E1F2207B93E00111F6F /* WeekCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		896C4E252207C9C800111F6F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				896C4E262207C9D900111F6F /* WeekDayRepresentable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,6 +394,24 @@
 			productReference = 896C4DC222023C8800111F6F /* Rainstorm.app */;
 			productType = "com.apple.product-type.application";
 		};
+		896C4E0422066B8400111F6F /* RainstormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896C4E0C22066B8500111F6F /* Build configuration list for PBXNativeTarget "RainstormTests" */;
+			buildPhases = (
+				896C4E0122066B8400111F6F /* Sources */,
+				896C4E0222066B8400111F6F /* Frameworks */,
+				896C4E0322066B8400111F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				896C4E0B22066B8400111F6F /* PBXTargetDependency */,
+			);
+			name = RainstormTests;
+			productName = RainstormTests;
+			productReference = 896C4E0522066B8400111F6F /* RainstormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -139,6 +424,11 @@
 				TargetAttributes = {
 					896C4DC122023C8800111F6F = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					896C4E0422066B8400111F6F = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 896C4DC122023C8800111F6F;
 					};
 				};
 			};
@@ -156,6 +446,7 @@
 			projectRoot = "";
 			targets = (
 				896C4DC122023C8800111F6F /* Rainstorm */,
+				896C4E0422066B8400111F6F /* RainstormTests */,
 			);
 		};
 /* End PBXProject section */
@@ -170,6 +461,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		896C4E0322066B8400111F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896C4E182206764800111F6F /* darksky.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -177,14 +476,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8921810F220F3CB500BA23FC /* Result.swift in Sources */,
+				892181082209FACC00BA23FC /* UIViewController+Extension.swift in Sources */,
+				896C4E222207BF2700111F6F /* ReusableCell.swift in Sources */,
+				896C4DF02203897100111F6F /* RootViewModel.swift in Sources */,
+				896C4DEA22025B9100111F6F /* WeatherRequest.swift in Sources */,
+				896C4DF92205FEB900111F6F /* DayViewModel.swift in Sources */,
+				89218111220F4C6900BA23FC /* UserDefaults+Extension.swift in Sources */,
+				896C4DE422023FB200111F6F /* WeekViewController.swift in Sources */,
+				896C4E1E2207B67E00111F6F /* ActivityIndicatorController.swift in Sources */,
+				896C4DE72202407D00111F6F /* UIView+Extension.swift in Sources */,
+				896C4DF322049C6200111F6F /* DarkSkyResponse.swift in Sources */,
+				896C4DFD22065A5000111F6F /* Styles.swift in Sources */,
+				8921811A221103CA00BA23FC /* NetworkManager.swift in Sources */,
+				896C4DED22025C7400111F6F /* Configuration.swift in Sources */,
+				896C4E242207C65B00111F6F /* WeekDayViewModel.swift in Sources */,
+				8921810D220A92C000BA23FC /* LocationManager.swift in Sources */,
+				896C4E202207B93E00111F6F /* WeekCell.swift in Sources */,
 				896C4DDF22023DAF00111F6F /* RootCoordinator.swift in Sources */,
+				896C4DE222023F6E00111F6F /* DayViewController.swift in Sources */,
+				892181062209ED2F00BA23FC /* Location.swift in Sources */,
 				896C4DDD22023D7A00111F6F /* AppCordinator.swift in Sources */,
+				8921810A220A919600BA23FC /* LocationService.swift in Sources */,
+				896C4E1B2207B57D00111F6F /* WeekWeatherTableViewController.swift in Sources */,
+				896C4E002206612000111F6F /* UIImage+Extension.swift in Sources */,
 				896C4DC822023C8800111F6F /* RootViewController.swift in Sources */,
+				896C4DF62205EF0E00111F6F /* WeatherData.swift in Sources */,
+				896C4E272207C9D900111F6F /* WeekDayRepresentable.swift in Sources */,
+				892181182211036500BA23FC /* NetworkService.swift in Sources */,
+				896C4DFB2205FEC600111F6F /* WeekViewModel.swift in Sources */,
 				896C4DC622023C8800111F6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		896C4E0122066B8400111F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892181162210EDB800BA23FC /* MockLocationService.swift in Sources */,
+				8921811C221105B600BA23FC /* MockNetworkService.swift in Sources */,
+				892181132210ED3000BA23FC /* RootViewModelTests.swift in Sources */,
+				896C4E292207CB2500111F6F /* WeekViewModelTests.swift in Sources */,
+				896C4E1622066D3600111F6F /* XCTestCase.swift in Sources */,
+				896C4E1222066C2000111F6F /* DayViewModelTests.swift in Sources */,
+				896C4E2B2207CDA000111F6F /* WeekDayViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		896C4E0B22066B8400111F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 896C4DC122023C8800111F6F /* Rainstorm */;
+			targetProxy = 896C4E0A22066B8400111F6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		896C4DCE22023C8A00111F6F /* LaunchScreen.storyboard */ = {
@@ -350,6 +697,49 @@
 			};
 			name = Release;
 		};
+		896C4E0D22066B8500111F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YENA34BLHT;
+				INFOPLIST_FILE = RainstormTests/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nschucky.RainstormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainstorm.app/Rainstorm";
+			};
+			name = Debug;
+		};
+		896C4E0E22066B8500111F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YENA34BLHT;
+				INFOPLIST_FILE = RainstormTests/SupportingFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nschucky.RainstormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainstorm.app/Rainstorm";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -367,6 +757,15 @@
 			buildConfigurations = (
 				896C4DD522023C8A00111F6F /* Debug */,
 				896C4DD622023C8A00111F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		896C4E0C22066B8500111F6F /* Build configuration list for PBXNativeTarget "RainstormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896C4E0D22066B8500111F6F /* Debug */,
+				896C4E0E22066B8500111F6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

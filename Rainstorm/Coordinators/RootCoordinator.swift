@@ -17,7 +17,8 @@ final class RootCoordinator: Coordinator {
     }
     
     func start() {
-        let rootController = RootViewController()
+        let rootViewModel = RootViewModel(locationManager: LocationManager(), networkManager: NetworkManager())
+        let rootController = RootViewController(rootViewModel: rootViewModel)
         let navigationController = UINavigationController(rootViewController: rootController)
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
